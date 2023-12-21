@@ -1,0 +1,32 @@
+{
+  "name": "aula93",
+  "version": "1.0.0",
+  "description": "Sua descrição do projeto vai aqui",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "webpack",
+    "watch": "webpack -w"
+  },
+  "author": "Seu Nome",
+  "license": "ISC",
+  "directories": {
+    "src": "src",
+    "dist": "public"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.6.4",
+    "@babel/core": "^7.6.4",
+    "@babel/preset-env": "^7.6.3",
+    "babel-loader": "^8.0.6",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.9"
+  },
+  "dependencies": {
+    "chokidar": "^3.5.3",
+    "core-js": "^3.34.0",
+    "debug": "^4.3.4",
+    "glob-parent": "^6.0.2",
+    "mkdirp": "^3.0.1",
+    "regenerator-runtime": "^0.13.3"
+  }
+}
